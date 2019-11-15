@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SnapKitModulesRepo'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'SnapKitModulesRepo'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SnapKitModulesRepo/Classes/**/*'
+  
+  s.swift_version = '5.1'
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1' }
 
   # s.resource_bundles = {
   #   'SnapKitModulesRepo' => ['SnapKitModulesRepo/Assets/*.png']
