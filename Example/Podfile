@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SnapKitModulesRepo_Example' do
+  pod 'SnapKitModulesRepo', :path => '../'
+
+  target 'SnapKitModulesRepo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
