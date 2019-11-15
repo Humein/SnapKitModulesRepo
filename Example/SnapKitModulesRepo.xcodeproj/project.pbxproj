@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F0EC6E46E83F0679C26D1E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4FF4EF6EE3937A5B73B16E74 /* SnapKitModulesRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SnapKitModulesRepo.podspec; path = ../SnapKitModulesRepo.podspec; sourceTree = "<group>"; };
+		0F0EC6E46E83F0679C26D1E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4FF4EF6EE3937A5B73B16E74 /* SnapKitModulesRepo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SnapKitModulesRepo.podspec; path = ../SnapKitModulesRepo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* SnapKitModulesRepo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKitModulesRepo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8CC0AB68410585E5573F4436 /* Pods_SnapKitModulesRepo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapKitModulesRepo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97004D01DE512BCBB0294CA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97004D01DE512BCBB0294CA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C6F45D5EB41C0141EEE451F9 /* Pods-SnapKitModulesRepo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitModulesRepo_Example.debug.xcconfig"; path = "Target Support Files/Pods-SnapKitModulesRepo_Example/Pods-SnapKitModulesRepo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C97A252F7AD9C75C96B226D1 /* Pods-SnapKitModulesRepo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapKitModulesRepo_Example.release.xcconfig"; path = "Target Support Files/Pods-SnapKitModulesRepo_Example/Pods-SnapKitModulesRepo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D625A46F90834EFB18BFF0C2 /* Pods_SnapKitModulesRepo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapKitModulesRepo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				E4055A938CD0B70767E44DB0 /* Pods-SnapKitModulesRepo_Tests.debug.xcconfig */,
 				DAB8A776470119B06EB989A0 /* Pods-SnapKitModulesRepo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
